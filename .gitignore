@@ -1,0 +1,13 @@
+# 依赖与构建产物
+node_modules/
+out/
+dist/
+
+# 本地私密配置（密钥只放这里 / config.json，永不提交）
+.env.local
+.env
+*.local
+
+# 系统杂物
+.DS_Store
+*.log
